@@ -10,7 +10,7 @@ CHATGPT_API_KEY = 'your-chatgpt-api-key'
 
 # Function to fetch SonarQube issues
 def fetch_sonarqube_issues():
-    issues_url = f'{SONARQUBE_URL}/api/issues/search'
+    issues_url = f'http://3.6.87.81:9000/api/issues/search'
     params = {
         'resolved': 'false',  # Get unresolved issues
         'ps': 100,  # Number of issues to retrieve (adjust as needed)
