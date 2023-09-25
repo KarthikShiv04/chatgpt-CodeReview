@@ -7,7 +7,7 @@ import os
 import requests
 from github import Github
 
-## Adding command-line argumentsss
+## Adding command-line arguments
 parser = argparse.ArgumentParser()
 parser.add_argument('--openai_api_key', help='Your OpenAI API Key')
 parser.add_argument('--github_token', help='Your Github Token')
