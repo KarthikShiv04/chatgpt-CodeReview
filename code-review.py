@@ -1,8 +1,8 @@
 import requests
 
 # Define your SonarQube server URL and authentication token
-SONARQUBE_URL = 'http://your-sonarqube-server:9000'
-SONARQUBE_TOKEN = 'your-sonarqube-token'
+SONARQUBE_URL = 'http://3.6.87.81:9000'
+SONARQUBE_TOKEN = 'sqa_3b1cb7e9555bcd73a97f9c8b16a52fe6849c5aa9'
 
 # Define your ChatGPT API endpoint and API key
 CHATGPT_API_URL = 'http://your-chatgpt-api-endpoint'
