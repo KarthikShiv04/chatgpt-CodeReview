@@ -30,7 +30,7 @@ jobs:
           export PATH="$PWD/sonar-scanner-4.6.2.2472-linux/bin:$PATH"
 
           # Run SonarScanner
-          sonar-scanner -Dsonar.host.url=${{ secrets.SONARQUBE_URL }} -Dsonar.login=${{ secrets.SONARQUBE_TOKEN }}
+          sonar-scanner -Dsonar.host.url=${{ secrets.SONARQUBE_URL }} -Dsonar.login=${{ secrets.SONARQUBE_TOKEN }} -Dsonar.projectKey=chatgpt-CodeReview
         env:
           SONARQUBE_URL: ${{ secrets.SONARQUBE_URL }}
           SONARQUBE_TOKEN: ${{ secrets.SONARQUBE_TOKEN }}
